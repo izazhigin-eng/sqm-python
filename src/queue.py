@@ -1,5 +1,7 @@
+from src.sqmKey import SQMKey
+
 class Queue:
-    def __init__(self, key: str, requiredTypes: list[str]):
+    def __init__(self, key, requiredTypes: list[str]):
         self.key = key
         self._queue = []
         self._requiredTypes = requiredTypes
